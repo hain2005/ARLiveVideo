@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "940D0283-86F0-4A78-BF2C-A90C8692CCBC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "991E8CD5-ADFD-4DB1-A90D-74E0261F1E71"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARLiveVideo/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
+            landmarkName = "convertImageToRedArray(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3C5B883-81D8-418C-BC2F-E61F60ADD64B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARLiveVideo/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
+            landmarkName = "convertImageToRedArray(image:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E3C5B883-81D8-418C-BC2F-E61F60ADD64B - 1a48b69ebe686d5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARLiveVideo.ARViewContainer.Coordinator.convertImageToRGBArray(image: __C.UIImage) -&gt; Swift.Optional&lt;Swift.Array&lt;Swift.Array&lt;(Swift.UInt8, Swift.UInt8, Swift.UInt8)&gt;&gt;&gt;"
+                  moduleName = "ARLiveVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/haitnguyen/Hnguyen/Corduro/Mobile/Sample/ARLiveVideo/ARLiveVideo/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "175"
+                  endingLineNumber = "175"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "E3C5B883-81D8-418C-BC2F-E61F60ADD64B - 1a48b69ebe686c45"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARLiveVideo.ARViewContainer.Coordinator.convertImageToRGBArray(image: __C.UIImage) -&gt; Swift.Optional&lt;Swift.Array&lt;Swift.Array&lt;(Swift.UInt8, Swift.UInt8, Swift.UInt8)&gt;&gt;&gt;"
+                  moduleName = "ARLiveVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/haitnguyen/Hnguyen/Corduro/Mobile/Sample/ARLiveVideo/ARLiveVideo/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "300">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C422348C-A185-4D9A-93D1-94740E60CA6E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARLiveVideo/PercentRedView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
