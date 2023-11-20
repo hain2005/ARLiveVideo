@@ -16,6 +16,8 @@
 		12D26A632B02C98A00F25169 /* ARLiveVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D26A622B02C98A00F25169 /* ARLiveVideoTests.swift */; };
 		12D26A6D2B02C98A00F25169 /* ARLiveVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D26A6C2B02C98A00F25169 /* ARLiveVideoUITests.swift */; };
 		12D26A6F2B02C98A00F25169 /* ARLiveVideoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D26A6E2B02C98A00F25169 /* ARLiveVideoUITestsLaunchTests.swift */; };
+		12E4EEAC2B0BB250000FCB0F /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4EEAB2B0BB250000FCB0F /* AudioManager.swift */; };
+		12E4EEAE2B0BB2E8000FCB0F /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4EEAD2B0BB2E8000FCB0F /* ARViewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		12D26A682B02C98A00F25169 /* ARLiveVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARLiveVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D26A6C2B02C98A00F25169 /* ARLiveVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLiveVideoUITests.swift; sourceTree = "<group>"; };
 		12D26A6E2B02C98A00F25169 /* ARLiveVideoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLiveVideoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12E4EEAB2B0BB250000FCB0F /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		12E4EEAD2B0BB2E8000FCB0F /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				12D26A572B02C98A00F25169 /* Preview Content */,
 				12922C832B02F17E00B72D76 /* CaptureImageSampler.swift */,
 				12922C852B03287000B72D76 /* PixelProcessingShader.metal */,
+				12E4EEAB2B0BB250000FCB0F /* AudioManager.swift */,
+				12E4EEAD2B0BB2E8000FCB0F /* ARViewContainer.swift */,
 			);
 			path = ARLiveVideo;
 			sourceTree = "<group>";
@@ -266,7 +272,9 @@
 				12D26A542B02C98800F25169 /* ContentView.swift in Sources */,
 				12922C842B02F17E00B72D76 /* CaptureImageSampler.swift in Sources */,
 				12922C862B03287000B72D76 /* PixelProcessingShader.metal in Sources */,
+				12E4EEAC2B0BB250000FCB0F /* AudioManager.swift in Sources */,
 				12D26A522B02C98800F25169 /* AppDelegate.swift in Sources */,
+				12E4EEAE2B0BB2E8000FCB0F /* ARViewContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

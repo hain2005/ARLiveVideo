@@ -16,12 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        // Load all the shader files with a metal file extension in the project
-        //let defaultLibrary = device.makeDefaultLibrary()!
-        //let capturedImageVertexFunction = defaultLibrary.makeFunction(name: "capturedImageVertexTransform")!
-
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView() //ContentView1(redPercentage: 0.0) //ContentView() //PercentRedView() //ContentView()
+        let contentView = ContentView()
 
         // Use a UIHostingController as window root view controller.
         let window = UIWindow(frame: UIScreen.main.bounds)
