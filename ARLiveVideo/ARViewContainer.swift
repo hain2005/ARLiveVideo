@@ -118,14 +118,9 @@ struct ARViewContainer: UIViewRepresentable {
                 commandEncoder?.setComputePipelineState(pipelineState)
                 commandEncoder?.setTexture(texture, index: 0)
                 commandEncoder?.setBuffer(buffer, offset: 0, index: 0)
-
-                let width = image.width
-                let height = image.height
-                
-                print("width - height: \(width) - \(height)")
-                
-                let gridSize = MTLSize(width: width, height: height, depth: 1)
-                let threadGroupSize = MTLSize(width: 16, height: 16, depth: 1)
+                                
+                let gridSize = MTLSize(width: 8, height: 8, depth: 1)
+                let threadGroupSize = MTLSize(width: 8, height: 8, depth: 1)
                 commandEncoder?.dispatchThreadgroups(gridSize, threadsPerThreadgroup: threadGroupSize)
 
                 commandEncoder?.endEncoding()
